@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <!-- Meta SEO -->
+    <meta name="title" content="Landwind - Tailwind CSS Landing Page">
+    <meta name="description"
+        content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+    <meta name="robots" content="index, follow">
+
+    <meta name="language" content="English">
+    <meta name="author" content="Themesberg">
+
+    <!-- Social media share -->
+    <meta property="og:title" content="Landwind - Tailwind CSS Landing Page">
+    <meta property="og:site_name" content="Themesberg">
+    <meta property="og:url" content="https://https://demo.themesberg.com/landwind/">
+    <meta property="og:description"
+        content="Get started with a free and open-source landing page for Tailwind CSS built with the Flowbite component library featuring dark mode, hero sections, pricing cards, and more.">
+    <meta property="og:type" content="">
+    <meta property="og:image"
+        content="https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/og-image.png">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@themesberg" />
+    <meta name="twitter:creator" content="@themesberg" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./src/css/output.css" rel="stylesheet">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="#" class="flex items-center">
+                    <img src="./src/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Andrés
+                        Espitia</span>
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <div class="hidden mt-2 mr-4 sm:inline-block">
+                        <a class="github-button" href="https://github.com/themesberg/landwind" data-size="large"
+                            data-icon="octicon-star" data-show-count="true"
+                            aria-label="Star themesberg/landwind on GitHub">Star</a>
+                    </div>
+                    <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
+                    <a href="https://themesberg.com/product/tailwind-css/landing-page"
+                        class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Download</a>
+                    <button data-collapse-toggle="mobile-menu-2" type="button"
+                        class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#exp"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Company</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Marketplace</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Features</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Team</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1
+                    class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
+                    Andrés Espitia<br>Programador FullStack</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    Desarrollador web y aplicaciones mobiles, con mas de 4 años de experiencia en proyectos educativos y
+                    personales. Usando tecnologias y servicios más usados en el mercado para brindar una mejor solución.
+                </p>
+                <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+                    <a href="https://github.com/themesberg/landwind"
+                        class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                        <svg class="w-4 h-4 mr-2 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg> Ver GitHub
+                    </a>
+                    <a href="https://www.figma.com/community/file/1125744163617429490"
+                        class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <svg class="w-4 h-4 mr-2" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300"
+                            width="1667" height="2500">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: #0acf83
+                                }
+
+                                .st1 {
+                                    fill: #a259ff
+                                }
+
+                                .st2 {
+                                    fill: #f24e1e
+                                }
+
+                                .st3 {
+                                    fill: #ff7262
+                                }
+
+                                .st4 {
+                                    fill: #1abcfe
+                                }
+                            </style>
+                            <title>Figma.logo</title>
+                            <desc>Created using Figma</desc>
+                            <path id="path0_fill" class="st0"
+                                d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" />
+                            <path id="path1_fill" class="st1"
+                                d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" />
+                            <path id="path1_fill_1_" class="st2"
+                                d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" />
+                            <path id="path2_fill" class="st3"
+                                d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" />
+                            <path id="path3_fill" class="st4"
+                                d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" />
+                        </svg> Ver perfil de Figma
+                    </a>
+                </div>
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="./src/images/yo-bg2.png" alt="hero image">
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+    
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
+            <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                
+                <a href="#" class="flex items-center lg:justify-center">
+                    <svg class="h-9 hover:text-gray-900 dark:hover:text-white" width="2353" height="2500" viewBox="0 0 256 272" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                        <path d="M.1 45.522L125.908.697l129.196 44.028-20.919 166.45-108.277 59.966-106.583-59.169L.1 45.522z"
+                            fill="#E23237" />
+                        <path d="M255.104 44.725L125.908.697v270.444l108.277-59.866 20.919-166.55z" fill="#B52E31" />
+                        <path
+                            d="M126.107 32.274L47.714 206.693l29.285-.498 15.739-39.347h70.325l17.233 39.845 27.99.498-82.179-174.917zm.2 55.882l26.496 55.383h-49.806l23.31-55.383z"
+                            fill="#FFF" />
+                    </svg>
+                    <p class="text-3xl ">Angular</p>
+                </a>
+                <a href="#" class="flex items-center lg:justify-center">
+                    <svg class="h-9 hover:text-gray-900 dark:hover:text-white" viewBox="-0.23294661979148623 0 125.23294661979149 79.04777140278348" xmlns="http://www.w3.org/2000/svg"
+                        width="2500" height="1575">
+                        <g fill="#621ee5">
+                            <path
+                                d="M6.02 40.25c-.32-.34-.71-.61-1.14-.8s-.89-.28-1.36-.28c-.47-.01-.93.09-1.36.27-.43.19-.82.46-1.14.8-.33.33-.59.72-.76 1.15-.17.44-.26.9-.26 1.36-.01.47.08.93.26 1.36s.44.82.77 1.15a3.339 3.339 0 0 0 2.5 1.05 3.456 3.456 0 0 0 2.5-1.05c.34-.32.6-.71.78-1.14s.27-.89.27-1.36-.09-.93-.27-1.36c-.19-.44-.45-.83-.79-1.15zM47.87 32.13c-.05 2.24.06 4.49.32 6.72h-.12c-.28-.55-.9-1.57-1.85-3.06L23.42 0H16.5v45.69h5.32V12.66c.06-2.09-.03-4.18-.25-6.27h.2c.38 1 .87 1.96 1.45 2.86l23.42 36.44h6.55V0h-5.32zM89.26 40.67h-18.8V24.84h16.45v-4.82H70.46V4.84h17.65V0h-23.1v45.69h24.22zM93.33 0v4.84h13.1v40.85h5.32V4.84H125V0zM41.19 57.05a10.04 10.04 0 0 0-3.52 2.37c-1.02 1.09-1.82 2.37-2.34 3.78s-.75 2.9-.69 4.39c-.1 2.76.86 5.46 2.7 7.52.92.97 2.04 1.72 3.28 2.22s2.57.72 3.9.66c2 .07 3.99-.35 5.8-1.23l.02-2.33c-1.66.97-3.55 1.45-5.47 1.4-1.03.04-2.06-.14-3.01-.53s-1.81-.99-2.51-1.75a8.72 8.72 0 0 1-2.1-6.14c-.12-2.37.69-4.69 2.25-6.47.74-.82 1.65-1.46 2.66-1.9a7.68 7.68 0 0 1 3.21-.61c1.75-.03 3.47.4 5 1.25v-2.51a12.23 12.23 0 0 0-5-.88c-1.43-.02-2.86.23-4.18.76zM66.12 64.21a6.719 6.719 0 0 0-5.22-2.08c-1.03-.05-2.05.12-3.01.49s-1.83.93-2.57 1.64c-.72.8-1.27 1.73-1.63 2.75s-.51 2.09-.44 3.17c-.1 2.05.61 4.06 1.97 5.59.68.73 1.5 1.31 2.42 1.7.92.38 1.91.57 2.9.53 1.01.03 2.02-.16 2.96-.55s1.78-.98 2.47-1.73a8.06 8.06 0 0 0 2.02-5.76c.12-2.1-.55-4.15-1.87-5.75zm-1.83 10.27a4.394 4.394 0 0 1-3.57 1.51c-.69.03-1.37-.1-2-.36-.63-.27-1.19-.67-1.65-1.19a6.126 6.126 0 0 1-1.35-4.21c-.09-1.57.39-3.12 1.35-4.36.45-.52 1.01-.93 1.64-1.21.63-.27 1.32-.4 2-.37.68-.04 1.35.09 1.97.36s1.17.68 1.61 1.2a6.668 6.668 0 0 1 1.25 4.34c.1 1.52-.34 3.05-1.25 4.29zM75.88 63.23c-.75.67-1.3 1.54-1.57 2.51V62.6h-2.5v15.04h2.5v-7.67c-.08-1.39.28-2.78 1.02-3.96.27-.43.63-.79 1.07-1.04s.93-.4 1.43-.41c.64-.05 1.28.12 1.82.48v-2.48c-.46-.15-.94-.22-1.42-.2-.86-.01-1.69.3-2.35.87zM94.28 69.44c.12-1.91-.45-3.79-1.6-5.31-.57-.64-1.27-1.15-2.06-1.48s-1.64-.48-2.49-.43c-.94-.03-1.88.16-2.75.54-.86.38-1.63.95-2.25 1.67a8.217 8.217 0 0 0-1.97 5.71c-.13 2.08.52 4.14 1.82 5.76.63.69 1.41 1.23 2.27 1.59s1.8.51 2.73.47c1.85.09 3.68-.41 5.22-1.43v-2.26a7.506 7.506 0 0 1-4.65 1.68c-.65.04-1.31-.06-1.92-.3s-1.17-.59-1.63-1.06a5.58 5.58 0 0 1-1.27-3.86H94.3zm-10.57-.7c.13-1.19.65-2.31 1.47-3.18a3.86 3.86 0 0 1 2.88-1.23c.52-.03 1.03.06 1.51.26s.9.5 1.24.89c.7.93 1.05 2.07 1 3.23z" />
+                        </g>
+                    </svg>
+                    <p class="text-3xl ">.Net </p>
+                </a>
+                <a href="#" class="flex items-center lg:justify-center">
+                    <svg class="h-9 hover:text-gray-900 dark:hover:text-white" width="1823" height="2500" viewBox="0 0 256 351" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                        <defs>
+                            <path
+                                d="M1.253 280.732l1.605-3.131 99.353-188.518-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188L1.253 280.732z"
+                                id="a" />
+                            <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="b">
+                                <feGaussianBlur stdDeviation="17.5" in="SourceAlpha" result="shadowBlurInner1" />
+                                <feOffset in="shadowBlurInner1" result="shadowOffsetInner1" />
+                                <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                                    result="shadowInnerInner1" />
+                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" in="shadowInnerInner1" />
+                            </filter>
+                            <path
+                                d="M134.417 148.974l32.039-32.812-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109-.53 1.744 31.678 58.556z"
+                                id="c" />
+                            <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="d">
+                                <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1" />
+                                <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1" />
+                                <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1"
+                                    result="shadowInnerInner1" />
+                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0" in="shadowInnerInner1" />
+                            </filter>
+                        </defs>
+                        <path
+                            d="M0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951L0 282.998z"
+                            fill="#FFC24A" />
+                        <use fill="#FFA712" fill-rule="evenodd" xlink:href="#a" />
+                        <use filter="url(#b)" xlink:href="#a" />
+                        <path
+                            d="M135.005 150.38l32.955-33.75-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86l32.584 60.233z"
+                            fill="#F4BD62" />
+                        <use fill="#FFA50E" fill-rule="evenodd" xlink:href="#c" />
+                        <use filter="url(#d)" xlink:href="#c" />
+                        <path fill="#F6820C" d="M0 282.998l.962-.968 3.496-1.42 128.477-128 1.628-4.431-32.05-61.074z" />
+                        <path
+                            d="M139.121 347.551l116.275-64.847-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005"
+                            fill="#FDE068" />
+                        <path
+                            d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006l115.392-64.355z"
+                            fill="#FCCA3F" />
+                        <path
+                            d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983 115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847-.285-1.752-115.99 64.689z"
+                            fill="#EEAB37" />
+                    </svg>
+                    <p class="text-3xl ">Firebase</p>
+                </a>
+                <a href="#" class="flex items-center lg:justify-center">
+                    <svg class="h-9 hover:text-gray-900 dark:hover:text-white " xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="0 0 1052 1052">
+                        <path fill="#f0db4f" d="M0 0h1052v1052H0z" />
+                        <path
+                            d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z"
+                            fill="#323330" />
+                    </svg>
+               
+                    <p class="text-3xl ">JavaScript</p>
+                </a>
+                <a href="#" class="flex items-center lg:justify-center">
+                    <svg class="h-9 hover:text-gray-900 dark:hover:text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2500"
+                        height="2500">
+                        <linearGradient id="c" gradientTransform="rotate(-45 32051.159 -83912.245) scale(31.584)"
+                            gradientUnits="userSpaceOnUse" x1="-1582" x2="-1581" y1="-1495.328" y2="-1495.328">
+                            <stop offset="0" stop-color="#c757bc" />
+                            <stop offset=".108" stop-color="#c757bc" />
+                            <stop offset=".173" stop-color="#cd5ca9" />
+                            <stop offset=".492" stop-color="#e8744f" />
+                            <stop offset=".716" stop-color="#f88316" />
+                            <stop offset=".823" stop-color="#ff8900" />
+                            <stop offset="1" stop-color="#ff8900" />
+                        </linearGradient>
+                        <linearGradient id="a">
+                            <stop offset="0" stop-color="#00afff" />
+                            <stop offset=".296" stop-color="#00afff" />
+                            <stop offset=".694" stop-color="#5282ff" />
+                            <stop offset="1" stop-color="#945dff" />
+                        </linearGradient>
+                        <linearGradient id="d" gradientTransform="rotate(-45 15635.387 -40897.94) scale(15.3946)"
+                            gradientUnits="userSpaceOnUse" x1="-1582" x2="-1581" xlink:href="#a" y1="-1494.622" y2="-1494.622" />
+                        <linearGradient id="e" gradientTransform="matrix(7.6364 -7.6366 7.6366 7.6364 23489.887 -665.412)"
+                            gradientUnits="userSpaceOnUse" x1="-1582" x2="-1581" xlink:href="#a" y1="-1494.036" y2="-1494.036" />
+                        <linearGradient id="f" gradientTransform="rotate(-45 32051.159 -83912.245) scale(31.584)"
+                            gradientUnits="userSpaceOnUse" x1="-1582" x2="-1581" y1="-1495.322" y2="-1495.322">
+                            <stop offset="0" stop-color="#ad4ca4" />
+                            <stop offset=".108" stop-color="#ad4ca4" />
+                            <stop offset=".173" stop-color="#b25093" />
+                            <stop offset=".492" stop-color="#ca6545" />
+                            <stop offset=".716" stop-color="#d87213" />
+                            <stop offset=".823" stop-color="#de7700" />
+                            <stop offset="1" stop-color="#de7700" />
+                        </linearGradient>
+                        <linearGradient id="b">
+                            <stop offset="0" stop-color="#0098de" />
+                            <stop offset=".296" stop-color="#0098de" />
+                            <stop offset=".694" stop-color="#4771de" />
+                            <stop offset="1" stop-color="#8151de" />
+                        </linearGradient>
+                        <linearGradient id="g" gradientTransform="rotate(-45 15635.387 -40897.94) scale(15.3946)"
+                            gradientUnits="userSpaceOnUse" x1="-1582" x2="-1581" xlink:href="#b" y1="-1494.622" y2="-1494.622" />
+                        <linearGradient id="h" gradientTransform="matrix(7.6364 -7.6366 7.6366 7.6364 23489.887 -665.412)"
+                            gradientUnits="userSpaceOnUse" x1="-1582" x2="-1581" xlink:href="#b" y1="-1493.643" y2="-1493.643" />
+                        <path d="M24 0H12.05L.639 12h11.34l.053-.054z" fill="url(#c)" />
+                        <path d="M24 24H0zM12.032 11.946l-.053.054h.107z" fill="url(#d)" />
+                        <path d="M12.05 0H0v12.672V12h.639z" fill="url(#e)" />
+                        <path d="M11.979 12H.639L0 12.672V24z" fill="url(#f)" />
+                        <path d="M12.086 12h-.107L0 24h24z" fill="url(#g)" />
+                        <path d="M.639 12H0v.672z" fill="url(#h)" />
+                    </svg>
+               
+                    <p class="text-3xl ">Kotlin</p>
+                </a>
+                <a href="#" class="flex items-center lg:justify-center">
+                    <svg class="h-9 hover:text-gray-900 dark:hover:text-white" viewBox="0 0 2500.1 2500" xmlns="http://www.w3.org/2000/svg" width="2500" height="2500">
+                        <path
+                            d="M2215.6 2500H284.4C127.3 2500 0 2372.7 0 2215.6V284.4C0 127.3 127.3 0 284.4 0h1931.3c157 0 284.4 127.3 284.4 284.4v1931.3c-.1 157-127.4 284.3-284.5 284.3z"
+                            fill="#fff" />
+                        <path
+                            d="M1259.6 190.4l47.6 89.4c10.7 16.5 22.3 31.1 35.9 44.7 40 39.5 77.3 81.7 111.6 126.3 80.6 105.8 135 223.4 173.8 350.6 23.3 77.6 35.9 157.4 36.9 237.9 3.9 240.9-78.7 447.7-245.1 619.6-27 27.2-56.3 52.3-87.5 74.7-16.5 0-24.3-12.6-31.1-24.3-12.4-21.6-20.6-45.3-24.3-69.9-5.9-29.2-9.7-58.3-7.8-88.3v-13.6c-1.3-3.1-15.8-1340.2-10-1347.1z"
+                            fill="#599636" />
+                        <path
+                            d="M1259.6 187.5c-1.9-3.9-3.9-1-5.9 1 1 19.5-5.9 36.9-16.5 53.5-11.7 16.5-27.2 29.2-42.8 42.8-86.3 74.7-154.3 165.1-208.7 266.1C913.2 686.8 875.9 832.5 865.4 986c-4.8 55.3 17.5 250.5 35 306.8 47.6 149.6 133 274.9 243.8 383.6 27.2 26.2 56.3 50.5 86.3 73.9 8.8 0 9.7-7.8 11.7-13.6 3.9-12.4 6.8-25 8.8-37.8l19.5-145.6z"
+                            fill="#6cac48" />
+                        <path
+                            d="M1307.2 1792.6c1.9-22.3 12.6-40.7 24.3-59.2-11.7-4.8-20.4-14.5-27.2-25.2-5.9-10.2-10.7-20.9-14.5-32.1-13.6-40.7-16.5-83.6-20.4-125.2v-25.2c-4.8 3.9-5.9 36.9-5.9 41.8-2.8 44.1-8.7 87.8-17.5 131.1-2.9 17.5-4.8 35-15.6 50.5 0 1.9 0 3.9 1 6.8 17.5 51.5 22.3 103.9 25.2 157.4v19.5c0 23.3-1 18.4 18.4 26.2 7.8 2.9 16.5 3.9 24.3 9.7 5.9 0 6.8-4.8 6.8-8.8l-2.9-32.1v-89.4c-.9-15.6 2-31.1 4-45.8z"
+                            fill="#c2bfbf" />
+                        <path
+                            d="M479.33 2226.45v43.194c0 1.736 0 3.472.307 5.106.51 5.106 3.676 8.271 8.27 9.7 4.29 1.124 8.68 1.94 13.071 2.553 2.553.307 3.37 1.43 3.676 4.187.306 9.7-.51 10.824-9.905 10.211-21.852-1.123-43.806-1.43-65.658 0h-2.042c-6.842.307-7.352-.306-7.352-7.148 0-1.123.306-2.552.306-3.676 0-2.042 1.43-3.165 3.37-3.165 4.595-.51 8.781-1.736 13.07-2.553 5.922-1.43 9.394-5.105 9.905-11.13.817-6.535.817-13.377.817-19.912l.306-76.176c.204-4.493-2.246-8.68-6.229-10.824-5.105-2.859-10.62-5.105-16.236-6.841-1.736-.51-3.37-.817-4.799-1.736-4.187-2.042-4.289-5.719-.306-7.965 1.43-.817 3.165-1.43 4.799-1.736a260.072 260.072 0 0 0 50.546-12.764c3.37-1.123 4.288-.817 4.595 2.553.306 2.042 0 4.595-.307 6.535-.51 3.676-.51 7.352-.51 10.824 0 1.43.306 2.86 1.736 3.676s2.859 0 4.186-.817c5.923-4.595 11.948-8.782 18.483-12.458 9.394-5.105 19.299-9.7 30.123-11.13 13.07-1.736 24.405 1.736 34.412 10.211 4.084 3.676 7.76 7.863 10.824 12.458 2.859 4.187 3.165 4.289 6.841 1.43 10.824-7.965 22.159-15.01 34.412-20.219 12.764-5.412 25.834-6.228 38.905-1.736 13.377 4.8 22.465 14.194 27.877 26.958 4.595 10.211 6.535 20.831 6.535 31.86v76.175c0 5.106 2.042 8.271 7.148 10.824 5.412 2.042 11.334 3.165 17.052 4.289 3.676.817 3.676.817 3.676 4.595-.51 9.394-1.43 9.905-10.517 9.394a588.168 588.168 0 0 0-68.415 0c-4.595.306-4.595.306-4.8-4.289v-1.43c-.306-7.658-.306-7.658 7.148-9.394l7.352-2.042c5.106-1.225 8.782-5.82 8.782-11.13l.817-21.342-.51-55.65c-.205-5.004-1.226-9.906-3.166-14.5-7.148-17.36-22.771-23.589-37.782-21.853-11.334 1.123-21.341 5.719-30.736 12.254-2.042 1.43-3.37 3.165-3.165 5.922 2.553 18.176.817 36.352 1.123 54.528v39.518c0 7.148 2.86 10.517 9.7 12.253l13.071 2.86c2.042.306 3.166 1.123 3.166 3.37v2.041c-.307 7.965-.817 8.271-8.782 8.271-22.771-1.123-45.44-.816-67.905 0-7.658.307-8.27-.51-7.965-8.27.307-4.596.817-4.8 5.106-5.719l9.394-1.736c8.272-1.736 11.335-4.8 11.948-13.683l.816-19.095-.51-57.08c-.51-7.149-2.042-13.888-5.923-20.423-5.718-10.518-14.602-15.93-26.753-16.44-12.254-.817-22.975 3.676-33.289 9.394-7.148 4.187-10.21 9.088-9.7 17.36v41.457zm535.375 1.737v40.028c0 2.859.205 5.718.511 8.475.204 3.88 3.063 7.148 6.842 7.965 4.901 1.43 9.904 2.246 15.01 2.553 2.86.306 3.37 1.43 3.676 3.676v2.042c-.306 9.905-1.43 11.13-11.13 10.518-21.648-1.43-43.194-1.124-64.74 0l-8.27.306c-1.736 0-2.043-.817-2.553-2.042a29.428 29.428 0 0 1 0-11.947c.306-1.736 1.43-2.043 3.165-2.553 4.187-.51 7.659-1.43 11.641-2.043 7.148-1.735 9.7-4.595 9.905-11.947l.817-23.894v-69.947c0-5.106-2.042-8.271-6.535-10.518-5.106-2.859-10.518-4.799-16.236-6.841-1.736-.51-3.37-1.123-4.8-2.042-3.676-2.553-4.186-6.23-.51-9.088 1.634-1.328 3.574-2.145 5.718-2.247 18.176-2.859 35.842-6.841 52.894-13.683 2.043-.817 2.86-.306 3.676 1.43s1.124 3.676.817 5.718l-.817 13.377c0 1.736-.816 4.186.511 4.799 1.736 1.123 2.86-1.43 4.289-2.042a123.8 123.8 0 0 1 27.57-17.564c8.782-4.186 17.87-6.841 28.081-6.228 19.095 1.123 32.676 10.823 41.458 27.57 4.595 8.782 6.535 18.482 7.352 28.387l.817 20.831.306 62.8c.306 4.799 2.042 7.964 6.842 9.7a98.384 98.384 0 0 0 15.316 3.676c4.595.51 4.8 1.43 5.106 5.718v1.43c-.51 9.7-1.123 9.905-10.824 9.394a600.917 600.917 0 0 0-63.616 0c-2.86.306-5.718 0-8.271.306-1.736 0-2.86-.306-3.166-2.042-.51-3.676-1.123-7.352-.306-11.334.306-1.736 1.123-2.553 3.166-2.86l13.07-2.042c4.595-1.123 7.148-4.186 7.658-8.27l.511-7.965-.306-59.43c0-6.841-.307-13.683-1.736-20.422-3.37-14.602-14.5-24.916-29.51-26.448-13.071-1.43-24.916 2.043-35.842 9.088-5.412 3.37-7.659 8.272-7.659 14.194v42.887c0-.817 0-.817.307-.817z"
+                            fill="#47474a" />
+                        <path
+                            d="M1846.82 2147.824c-3.166-20.729-10.824-39.21-24.201-55.447-11.641-14.295-26.652-25.426-43.806-32.37-17.87-7.351-36.965-9.7-56.264-10.21-7.965-.307-116.51 1.429-124.475 0-2.043-.307-3.37.306-4.595 2.042-1.43 2.042-2.86 4.288-3.676 6.535-3.37 7.658-3.37 7.148 4.799 8.27 6.841 1.124 13.377 1.737 19.912 3.677 5.922 2.042 10.211 5.412 11.64 11.947.511 3.166 1.124 103.134 1.124 149.697l-1.123 33.289c-.307 2.552-.511 5.105-1.43 7.352-1.123 3.37-3.166 6.229-6.535 7.658-3.778 1.736-7.76 2.86-11.947 3.166-7.659.816-8.782 1.123-11.335 9.7l-.817 3.166c-.51 3.676-.306 4.288 3.37 4.288l84.957.817 33.29-.51 22.974-2.86c26.141-4.799 49.423-15.623 69.335-32.982 11.334-10.007 20.626-22.158 27.264-35.841 7.964-15.93 11.334-33.289 12.253-50.852 1.532-10.11 1.021-20.32-.715-30.532zm-41.152 40.335c-1.123 18.176-4.8 35.841-14.193 51.669-11.948 20.728-29 35.228-52.588 40.334-10.212 2.042-20.423 3.165-31.145 1.736-7.658-.817-15.01-1.736-22.158-4.289-12.764-4.595-17.36-12.458-17.563-24.915l-.307-171.345c0-10.211 4.595-12.458 11.947-12.764 11.13-.817 22.465-.51 33.493.51 11.845 1.124 23.384 3.983 34.412 8.272 8.17 3.37 15.725 8.067 22.465 13.887 15.317 13.07 25.528 29.51 31.144 48.81 4.595 15.623 5.412 31.552 4.595 47.482zm277.337 27.876c0-1.736 0-3.165-.306-4.799-2.553-15.623-10.824-27.57-23.588-36.658-8.271-5.923-17.563-9.905-27.264-12.764-1.736-.51-3.165-1.124-4.8-1.43.307-1.43 1.124-1.736 2.043-2.042 5.718-2.86 11.13-5.923 15.93-10.211 8.781-7.352 14.602-16.44 17.563-27.57 1.736-5.923 1.736-11.948 1.123-18.177-.919-14.806-8.577-28.387-20.729-36.964-13.07-9.701-28.387-13.683-44.316-13.888-30.736-.51-61.676 0-92.31 0-8.782 0-17.563.51-26.753-.817-1.736-.306-4.187-.816-5.412 1.124-2.043 3.676-4.596 7.352-5.412 11.64-.307 2.043.306 3.166 2.552 3.37l19.606 2.86c7.658 1.123 13.07 5.411 13.683 12.253.51 4.697.817 9.496.817 14.193l-.51 53.099-.307 105.074c0 6.228-.817 12.253-2.042 18.482-.613 4.084-3.472 7.352-7.352 8.475-5.719 1.736-11.13 3.37-17.053 3.37-3.268-.306-6.331 1.736-7.352 4.8-1.123 2.552-2.042 5.411-2.553 7.964-.51 3.37.306 4.595 3.676 4.187 2.553-.307 96.292 2.042 113.958.306 10.517-1.123 20.83-2.553 31.246-5.718 17.87-5.719 34.412-13.888 47.482-27.877 10.824-11.335 17.053-25.018 17.564-40.947.816-3.676.816-7.352.816-11.335zm-137.851-116.51l.817-22.77c0-4.29 1.735-6.23 5.922-7.149 6.842-1.43 13.683-.817 20.423-.51 6.841.51 13.376 1.43 20.218 3.37 12.458 3.675 22.158 10.823 27.877 22.77 2.552 5.412 3.982 11.335 3.982 17.36.306 7.964-.306 15.623-3.37 23.281-4.8 10.518-12.458 17.36-23.588 19.3-11.13 2.042-42.58 1.123-47.482 1.123-4.289 0-4.595-.51-4.595-4.8v-26.753c-.715-8.271-.715-16.644-.306-25.018zm92.31 152.862c-4.8 12.764-13.684 21.648-26.141 26.448-6.842 2.552-13.684 4.186-20.831 3.676-8.782-.307-17.564 0-26.448-1.736-11.947-2.553-17.359-13.888-18.176-22.159-1.43-14.5-.51-29.306-.816-40.028v-37.475c0-4.595.51-5.923 5.412-5.923l26.753.307 18.176 2.042c12.764 2.86 24.405 7.658 33.493 17.563 7.352 7.965 11.334 17.564 12.253 28.081.817 9.905.307 19.606-3.37 29z"
+                            fill="#c2bfbf" />
+                        <path
+                            d="M1315.529 2166.817l7.352 1.123c7.964.307 17.359-2.552 20.218-13.683a29.258 29.258 0 0 0 0-16.235c-1.736 0-2.553 1.43-3.37 2.042-4.288 3.37-9.088 5.412-14.193 5.922-10.212 1.124-20.423.51-30.43-3.165l-13.887-4.8c-9.7-3.165-19.912-4.492-30.123-3.982-14.5 1.123-28.081 5.923-40.947 12.764-13.683 7.352-23.282 18.483-27.877 33.493-2.553 8.782-2.86 17.87-1.736 26.958 2.86 20.729 13.683 35.228 32.982 42.887 1.124.306 2.043.817 3.166 1.123 2.553 1.43 2.859 2.86.51 4.8l-7.147 4.799-17.053 10.517c-4.289 2.553-4.8 4.595-3.37 9.088 1.736 5.31 4.8 10.007 9.088 13.683 3.88 3.37 8.271 6.025 13.07 7.965 3.166 1.43 3.166 2.042.307 4.595l-16.236 11.641c-5.412 4.187-10.824 8.271-15.317 13.683a27.922 27.922 0 0 0-6.842 25.528c2.145 9.905 7.25 18.789 14.807 25.528a59.6 59.6 0 0 0 26.14 14.194c15.93 4.595 32.37 4.8 48.606 1.736 23.282-4.289 43.704-14.602 59.634-32.063 11.13-11.641 17.563-25.324 18.176-41.56 1.327-19.504-11.743-36.965-30.736-41.458l-15.317-2.859-46.87-4.187c-5.105-.306-10.21-1.123-14.5-3.676-5.411-3.37-6.841-9.905-3.37-14.193 2.554-3.166 5.72-5.106 9.701-5.412l9.088-.817a82.347 82.347 0 0 0 47.993-21.852 50.514 50.514 0 0 0 14.5-24.2c3.37-12.254 3.37-24.916.51-37.374-.816-3.165-.51-3.37 3.37-2.86zm-69.641 141.528c1.736.306 3.37 0 5.106 0 11.947.51 24.2 1.43 35.841 4.595 3.778 1.123 7.556 2.553 11.13 4.289 11.335 6.229 15.623 17.053 14.194 28.693-1.736 12.764-8.782 21.852-19.912 27.877-7.352 4.187-15.623 5.923-24.2 6.842-3.166.306-5.923 0-9.089 0-9.905.306-19.605-.817-29-4.8-6.535-2.553-11.947-6.229-16.746-11.334-9.905-9.905-14.602-28.081.306-42.887 9.088-8.476 19.3-14.398 32.37-13.275zm32.472-88.634c-5.923 15.011-19.095 19.606-32.064 17.564-11.947-1.736-20.728-8.271-26.447-19.095-7.352-14.5-9.394-29.51-5.105-45.134 3.165-11.64 10.21-20.422 22.77-22.465 15.93-2.859 31.145 2.86 39.212 18.789 4.187 7.658 5.922 17.053 5.922 30.43-.306 5.411-1.43 12.764-4.288 19.911zm-358.006-19.4c-2.553-15.318-8.271-29.307-18.79-40.948-15.622-17.36-35.534-24.915-57.999-25.018-19.605-.306-38.088 5.412-54.528 15.624-16.236 9.7-28.08 25.221-33.289 43.5-4.799 16.44-4.595 33.288-.816 50.035 9.904 44.93 44.623 64.228 86.08 61.37 12.254-.818 23.895-4.8 34.923-10.212 16.44-7.658 28.387-19.912 36.658-36.046 6.535-13.376 9.394-27.57 9.088-43.806zm-40.335 63.105c-4.186 13.07-15.623 22.464-29.306 23.894-12.458 1.736-24.2-1.43-34.616-8.782-7.556-5.616-13.683-12.866-17.87-21.341-11.64-23.895-13.683-48.81-7.658-74.44 1.94-7.965 6.024-15.113 11.947-20.73 10.517-9.7 22.771-11.946 36.352-9.087 13.07 2.86 22.975 9.905 31.144 20.729s11.947 23.281 14.194 36.352c1.123 6.535 1.123 13.376 1.43 17.563 0 13.683-1.124 24.916-5.413 35.842zm661.178-60.757c-2.042-16.44-8.271-31.553-19.912-44.01-15.317-16.747-35.229-23.895-57.387-24.201-19.095-.307-36.658 5.105-52.894 14.5-18.176 10.823-30.736 26.14-35.535 46.87-5.719 22.668-3.37 46.562 6.841 67.598 9.394 19.911 25.324 32.676 46.36 38.394 23.28 6.229 45.44 3.37 67.087-7.148 18.789-9.088 32.063-23.282 39.824-42.58 4.595-11.335 6.229-23.589 6.535-37.783.204-2.552-.408-7.147-.919-11.64zm-39.211 57.08c-4.595 15.317-14.194 25.324-30.43 27.57-11.947 1.737-23.281-1.122-33.493-7.964-8.781-5.922-15.01-13.887-19.605-23.282-5.106-9.904-7.965-20.422-9.088-31.246-1.736-13.377-1.736-26.447 1.43-39.824.612-2.655 1.43-5.208 2.552-7.658 7.965-19.912 25.528-29 46.36-24.405 13.887 3.165 24.404 10.824 32.369 22.465 7.658 11.334 11.334 23.894 13.07 37.373.817 5.412 1.124 11.13.817 15.93 0 11.13-.817 21.34-4.186 31.246z"
+                            fill="#47474a" />
+                    </svg>
+               
+                    <p class="text-3xl ">JavaScript</p>
+                </a>
+                
+                
+            </div>
+            
+        </div>
+       
+            <div class="flex justify-center items-center">
+                <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16 ">
+                    <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                        <a href="#" class="flex items-center lg:justify-center">
+                            <svg class="h-9 hover:text-gray-900 dark:hover:text-white" width="2270" height="2500" viewBox="0 0 256 282" xmlns="http://www.w3.org/2000/svg"
+                                preserveAspectRatio="xMinYMin meet">
+                                <g fill="#8CC84B">
+                                    <path
+                                        d="M116.504 3.58c6.962-3.985 16.03-4.003 22.986 0 34.995 19.774 70.001 39.517 104.99 59.303 6.581 3.707 10.983 11.031 10.916 18.614v118.968c.049 7.897-4.788 15.396-11.731 19.019-34.88 19.665-69.742 39.354-104.616 59.019-7.106 4.063-16.356 3.75-23.24-.646-10.457-6.062-20.932-12.094-31.39-18.15-2.137-1.274-4.546-2.288-6.055-4.36 1.334-1.798 3.719-2.022 5.657-2.807 4.365-1.388 8.374-3.616 12.384-5.778 1.014-.694 2.252-.428 3.224.193 8.942 5.127 17.805 10.403 26.777 15.481 1.914 1.105 3.852-.362 5.488-1.274 34.228-19.345 68.498-38.617 102.72-57.968 1.268-.61 1.969-1.956 1.866-3.345.024-39.245.006-78.497.012-117.742.145-1.576-.767-3.025-2.192-3.67-34.759-19.575-69.5-39.18-104.253-58.76a3.621 3.621 0 0 0-4.094-.006C91.2 39.257 56.465 58.88 21.712 78.454c-1.42.646-2.373 2.071-2.204 3.653.006 39.245 0 78.497 0 117.748a3.329 3.329 0 0 0 1.89 3.303c9.274 5.259 18.56 10.481 27.84 15.722 5.228 2.814 11.647 4.486 17.407 2.33 5.083-1.823 8.646-7.01 8.549-12.407.048-39.016-.024-78.038.036-117.048-.127-1.732 1.516-3.163 3.2-3 4.456-.03 8.918-.06 13.374.012 1.86-.042 3.14 1.823 2.91 3.568-.018 39.263.048 78.527-.03 117.79.012 10.464-4.287 21.85-13.966 26.97-11.924 6.177-26.662 4.867-38.442-1.056-10.198-5.09-19.93-11.097-29.947-16.55C5.368 215.886.555 208.357.604 200.466V81.497c-.073-7.74 4.504-15.197 11.29-18.85C46.768 42.966 81.636 23.27 116.504 3.58z" />
+                                    <path
+                                        d="M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z" />
+                                </g>
+                            </svg>
+                       
+                            <p class="text-3xl ">NodeJs</p>
+                        </a>
+                        <a href="#" class="flex items-center lg:justify-center">
+                            <svg class="h-9 hover:text-gray-900 dark:hover:text-white" height="2500" viewBox="175.7 78 490.6 436.9" width="2194" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="#61dafb">
+                                    <path
+                                        d="m666.3 296.5c0-32.5-40.7-63.3-103.1-82.4 14.4-63.6 8-114.2-20.2-130.4-6.5-3.8-14.1-5.6-22.4-5.6v22.3c4.6 0 8.3.9 11.4 2.6 13.6 7.8 19.5 37.5 14.9 75.7-1.1 9.4-2.9 19.3-5.1 29.4-19.6-4.8-41-8.5-63.5-10.9-13.5-18.5-27.5-35.3-41.6-50 32.6-30.3 63.2-46.9 84-46.9v-22.3c-27.5 0-63.5 19.6-99.9 53.6-36.4-33.8-72.4-53.2-99.9-53.2v22.3c20.7 0 51.4 16.5 84 46.6-14 14.7-28 31.4-41.3 49.9-22.6 2.4-44 6.1-63.6 11-2.3-10-4-19.7-5.2-29-4.7-38.2 1.1-67.9 14.6-75.8 3-1.8 6.9-2.6 11.5-2.6v-22.3c-8.4 0-16 1.8-22.6 5.6-28.1 16.2-34.4 66.7-19.9 130.1-62.2 19.2-102.7 49.9-102.7 82.3 0 32.5 40.7 63.3 103.1 82.4-14.4 63.6-8 114.2 20.2 130.4 6.5 3.8 14.1 5.6 22.5 5.6 27.5 0 63.5-19.6 99.9-53.6 36.4 33.8 72.4 53.2 99.9 53.2 8.4 0 16-1.8 22.6-5.6 28.1-16.2 34.4-66.7 19.9-130.1 62-19.1 102.5-49.9 102.5-82.3zm-130.2-66.7c-3.7 12.9-8.3 26.2-13.5 39.5-4.1-8-8.4-16-13.1-24-4.6-8-9.5-15.8-14.4-23.4 14.2 2.1 27.9 4.7 41 7.9zm-45.8 106.5c-7.8 13.5-15.8 26.3-24.1 38.2-14.9 1.3-30 2-45.2 2-15.1 0-30.2-.7-45-1.9-8.3-11.9-16.4-24.6-24.2-38-7.6-13.1-14.5-26.4-20.8-39.8 6.2-13.4 13.2-26.8 20.7-39.9 7.8-13.5 15.8-26.3 24.1-38.2 14.9-1.3 30-2 45.2-2 15.1 0 30.2.7 45 1.9 8.3 11.9 16.4 24.6 24.2 38 7.6 13.1 14.5 26.4 20.8 39.8-6.3 13.4-13.2 26.8-20.7 39.9zm32.3-13c5.4 13.4 10 26.8 13.8 39.8-13.1 3.2-26.9 5.9-41.2 8 4.9-7.7 9.8-15.6 14.4-23.7 4.6-8 8.9-16.1 13-24.1zm-101.4 106.7c-9.3-9.6-18.6-20.3-27.8-32 9 .4 18.2.7 27.5.7 9.4 0 18.7-.2 27.8-.7-9 11.7-18.3 22.4-27.5 32zm-74.4-58.9c-14.2-2.1-27.9-4.7-41-7.9 3.7-12.9 8.3-26.2 13.5-39.5 4.1 8 8.4 16 13.1 24s9.5 15.8 14.4 23.4zm73.9-208.1c9.3 9.6 18.6 20.3 27.8 32-9-.4-18.2-.7-27.5-.7-9.4 0-18.7.2-27.8.7 9-11.7 18.3-22.4 27.5-32zm-74 58.9c-4.9 7.7-9.8 15.6-14.4 23.7-4.6 8-8.9 16-13 24-5.4-13.4-10-26.8-13.8-39.8 13.1-3.1 26.9-5.8 41.2-7.9zm-90.5 125.2c-35.4-15.1-58.3-34.9-58.3-50.6s22.9-35.6 58.3-50.6c8.6-3.7 18-7 27.7-10.1 5.7 19.6 13.2 40 22.5 60.9-9.2 20.8-16.6 41.1-22.2 60.6-9.9-3.1-19.3-6.5-28-10.2zm53.8 142.9c-13.6-7.8-19.5-37.5-14.9-75.7 1.1-9.4 2.9-19.3 5.1-29.4 19.6 4.8 41 8.5 63.5 10.9 13.5 18.5 27.5 35.3 41.6 50-32.6 30.3-63.2 46.9-84 46.9-4.5-.1-8.3-1-11.3-2.7zm237.2-76.2c4.7 38.2-1.1 67.9-14.6 75.8-3 1.8-6.9 2.6-11.5 2.6-20.7 0-51.4-16.5-84-46.6 14-14.7 28-31.4 41.3-49.9 22.6-2.4 44-6.1 63.6-11 2.3 10.1 4.1 19.8 5.2 29.1zm38.5-66.7c-8.6 3.7-18 7-27.7 10.1-5.7-19.6-13.2-40-22.5-60.9 9.2-20.8 16.6-41.1 22.2-60.6 9.9 3.1 19.3 6.5 28.1 10.2 35.4 15.1 58.3 34.9 58.3 50.6-.1 15.7-23 35.6-58.4 50.6z" />
+                                    <circle cx="420.9" cy="296.5" r="45.7" />
+                                </g>
+                            </svg>
+                       
+                            <p class="text-3xl ">React</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+       
+        
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800 " id="exp">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <!-- Row -->
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Desarrollador FullStack</h2>
+                    <p class="mb-8 font-light lg:text-xl">4 años de experiencia usando framwork mas usados por grandes compañias, mejorando sistemas en su funcionalidad 
+                        y uso para el cliente.
+                    </p>
+                    <!-- List -->
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Proyectos con Angular, JavaScript y MongoDB</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Proyectos con Asp. Ner Core 6 y 7</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Proyectos con JavaScript, Vue.Js, MongoDB y AWS</span>
+                        </li>
+                    </ul>
+                    <p class="mb-8 font-light lg:text-xl">Cada dia aprendiendo nuevas tecnologias para mejorar sistemas.</p>
+                </div>
+                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./src/images/proyectos1.png"
+                    alt="dashboard feature image">
+            </div>
+            <!-- Row -->
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./src/images/feature-2.png"
+                    alt="feature image 2">
+                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Desarrollador y diseñador de App</h2>
+                    <p class="mb-8 font-light lg:text-xl">Con 2 años de experiencia en manejo de lenguajes de progrmacion con Java y Kotlin, usando servicios mas modernos para
+                        potenciar las funcionalidades de las aplicacion, uso de manejo de bases de datos en tiempo real como Firebase.
+                    </p>
+                    <!-- List -->
+                    <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">App de red social con Java</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">App de Ecommerce con kotlin</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">ChatGpt con java</span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Diseño de interfaces para usuarios</span>
+                        </li>
+                        
+                    </ul>
+                    <p class="font-light lg:text-xl">Gran uso de herramientas para el desarrollo de aplicaciones mobiles para android.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div
+            class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+            <div class="col-span-2 mb-8">
+                <p class="text-lg font-medium text-purple-600 dark:text-purple-500">Trusted Worldwide</p>
+                <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
+                    Trusted by over 600 million users and 10,000 teams</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Our rigorous security and compliance
+                    standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
+                <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
+                    <div>
+                        <a href="#"
+                            class="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
+                            Explore Legality Guide
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#"
+                            class="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
+                            Visit the Trust Center
+                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+                <div>
+                    <svg class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <h3 class="mb-2 text-2xl font-bold dark:text-white">99.99% uptime</h3>
+                    <p class="font-light text-gray-500 dark:text-gray-400">For Landwind, with zero maintenance downtime
+                    </p>
+                </div>
+                <div>
+                    <svg class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
+                        </path>
+                    </svg>
+                    <h3 class="mb-2 text-2xl font-bold dark:text-white">600M+ Users</h3>
+                    <p class="font-light text-gray-500 dark:text-gray-400">Trusted by over 600 milion users around the
+                        world</p>
+                </div>
+                <div>
+                    <svg class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <h3 class="mb-2 text-2xl font-bold dark:text-white">100+ countries</h3>
+                    <p class="font-light text-gray-500 dark:text-gray-400">Have used Landwind to create functional
+                        websites</p>
+                </div>
+                <div>
+                    <svg class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor"
+                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
+                        </path>
+                    </svg>
+                    <h3 class="mb-2 text-2xl font-bold dark:text-white">5+ Million</h3>
+                    <p class="font-light text-gray-500 dark:text-gray-400">Transactions per day</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+            <figure class="max-w-screen-md mx-auto">
+                <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                        fill="currentColor" />
+                </svg>
+                <blockquote>
+                    <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"Landwind is just awesome.
+                        It contains tons of predesigned components and pages starting from login screen to complex
+                        dashboard. Perfect choice for your next SaaS application."</p>
+                </blockquote>
+                <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                    <img class="w-6 h-6 rounded-full"
+                        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                        alt="profile picture">
+                    <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                        <div class="pr-3 font-medium text-gray-900 dark:text-white">Micheal Gough</div>
+                        <div class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">CEO at Google</div>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
+            <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for
+                    business teams like yours</h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Landwind we focus on
+                    markets where technology, innovation, and capital can unlock long-term value and drive economic
+                    growth.</p>
+            </div>
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <!-- Pricing Card -->
+                <div
+                    class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for
+                        your next project.</p>
+                    <div class="flex items-baseline justify-center my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$29</span>
+                        <span class="text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Individual configuration</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>No setup, or hidden fees</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Team size: <span class="font-semibold">1 developer</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Premium support: <span class="font-semibold">6 months</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Free updates: <span class="font-semibold">6 months</span></span>
+                        </li>
+                    </ul>
+                    <a href="#"
+                        class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get
+                        started</a>
+                </div>
+                <!-- Pricing Card -->
+                <div
+                    class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Company</h3>
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users,
+                        extended & premium support.</p>
+                    <div class="flex items-baseline justify-center my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$99</span>
+                        <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400>/month</span>
+                    </div>
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Individual configuration</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>No setup, or hidden fees</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Team size: <span class="font-semibold">10 developers</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Premium support: <span class="font-semibold">24 months</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Free updates: <span class="font-semibold">24 months</span></span>
+                        </li>
+                    </ul>
+                    <a href="#"
+                        class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get
+                        started</a>
+                </div>
+                <!-- Pricing Card -->
+                <div
+                    class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and
+                        extended redistribution rights.</p>
+                    <div class="flex items-baseline justify-center my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$499</span>
+                        <span class="text-gray-500 dark:text-gray-400">/month</span>
+                    </div>
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Individual configuration</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>No setup, or hidden fees</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Team size: <span class="font-semibold">100+ developers</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Premium support: <span class="font-semibold">36 months</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Free updates: <span class="font-semibold">36 months</span></span>
+                        </li>
+                    </ul>
+                    <a href="#"
+                        class="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get
+                        started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
+            <h2
+                class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+                Frequently asked questions</h2>
+            <div class="max-w-screen-md mx-auto">
+                <div id="accordion-flush" data-accordion="collapse"
+                    data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+                    data-inactive-classes="text-gray-500 dark:text-gray-400">
+                    <h3 id="accordion-flush-heading-1">
+                        <button type="button"
+                            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white"
+                            data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+                            aria-controls="accordion-flush-body-1">
+                            <span>Can I use Landwind in open-source projects?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Landwind is an open-source library of
+                                interactive components built on top of Tailwind CSS including buttons, dropdowns,
+                                modals, navbars, and more.</p>
+                            <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="#"
+                                    class="text-purple-600 dark:text-purple-500 hover:underline">get started</a> and
+                                start developing websites even faster with components on top of Tailwind CSS.</p>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-2">
+                        <button type="button"
+                            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                            data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
+                            aria-controls="accordion-flush-body-2">
+                            <span>Is there a Figma file available?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Landwind is first conceptualized and
+                                designed using the Figma software so everything you see in the library has a design
+                                equivalent in our Figma file.</p>
+                            <p class="text-gray-500 dark:text-gray-400">Check out the <a href="#"
+                                    class="text-purple-600 dark:text-purple-500 hover:underline">Figma design system</a>
+                                based on the utility classes from Tailwind CSS and components from Landwind.</p>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-3">
+                        <button type="button"
+                            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                            data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
+                            aria-controls="accordion-flush-body-3">
+                            <span>What are the differences between Landwind and Tailwind UI?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core
+                                components from Landwind are open source under the MIT license, whereas Tailwind UI is a
+                                paid product. Another difference is that Landwind relies on smaller and standalone
+                                components, whereas Tailwind UI offers sections of pages.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both
+                                Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping
+                                you from using the best of two worlds.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind
+                                        Pro</a></li>
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind
+                                        UI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-4">
+                        <button type="button"
+                            class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                            data-accordion-target="#accordion-flush-body-4" aria-expanded="false"
+                            aria-controls="accordion-flush-body-4">
+                            <span>What about browser support?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core
+                                components from Landwind are open source under the MIT license, whereas Tailwind UI is a
+                                paid product. Another difference is that Landwind relies on smaller and standalone
+                                components, whereas Tailwind UI offers sections of pages.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both
+                                Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping
+                                you from using the best of two worlds.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Landwind
+                                        Pro</a></li>
+                                <li><a href="#" class="text-purple-600 dark:text-purple-500 hover:underline">Tailwind
+                                        UI</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+    <!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+            <div class="max-w-screen-sm mx-auto text-center">
+                <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
+                    Start your free trial today</h2>
+                <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try Landwind Platform for 30
+                    days. No credit card required.</p>
+                <a href="#"
+                    class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Free
+                    trial for 30 days</a>
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+    <footer class="bg-white dark:bg-gray-800">
+        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+            <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
+                    <ul class="text-gray-500 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class=" hover:underline">About</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Careers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Brand Center</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h3>
+                    <ul class="text-gray-500 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Discord Server</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Twitter</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Facebook</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h3>
+                    <ul class="text-gray-500 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Licensing</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h3>
+                    <ul class="text-gray-500 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class=" hover:underline">About</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Careers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Brand Center</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h3>
+                    <ul class="text-gray-500 dark:text-gray-400">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">iOS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Android</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Windows</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">MacOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+            <div class="text-center">
+                <a href="#"
+                    class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
+                    <img src="./src/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                    Landwind
+                </a>
+                <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 Landwind™. All
+                    Rights Reserved. Built with <a href="https://flowbite.com"
+                        class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a
+                        href="https://tailwindcss.com"
+                        class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                </span>
+                <ul class="flex justify-center mt-5 space-x-5">
+                    <li>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+
+</html>
